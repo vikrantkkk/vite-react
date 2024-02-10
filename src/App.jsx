@@ -1,15 +1,13 @@
-
-import './App.css'
-import Greeting from './Greeting'
+import "./App.css";
+import ParentComponent from "./ParentComponent";
 
 function App() {
-
+  const color = "red";
   return (
     <>
-     <div>React Vite</div>
-     <Greeting/>
+      <ParentComponent color={color} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
