@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Example = () => {
 
   const [count, setCount] = useState(0);
-  
+
   //  const [show, setShow] = useState(false);
 
   const increase = () => {
@@ -30,6 +30,10 @@ const Example = () => {
   //   setShow((pre)=> !pre);
   // };
 
+
+
+  //  this is {name} here... iside h1 tag  ===RAGINI
+  // MAKE ONE BUTTON === NEHA USE useState
 
   return (
     <>
