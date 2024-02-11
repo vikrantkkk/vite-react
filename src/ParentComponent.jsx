@@ -13,22 +13,20 @@
 
 // export default ParentComponent;
 
-
-
-
 //passing color through props
 import React from "react";
 import { ChildComponent } from "./ChildComponent";
 
 const ParentComponent = () => {
-  const colorStyle = {
-    color: "green",
+  const obj = {
+    name: "green",
+    age: 20,
   };
 
   return (
     <>
       <div>ParentComponent</div>
-      <ChildComponent  style = {colorStyle} />
+      <ChildComponent obj={obj} />
     </>
   );
 };

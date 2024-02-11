@@ -10,10 +10,9 @@
 
 import React from 'react'
 
-export const ChildComponent = ({style}) => {
-    console.log(style);
-    
+export const ChildComponent = (props) => {
+  console.log(props.obj.name);
   return (
-    <div style={style}>ChildComponent</div>
+    <div >ChildComponent  {props.obj.name}</div>
   )
 }
