@@ -8,7 +8,7 @@ const Map = () => {
     { name: "ragini", email: "ragini@gamil.com", phone: 9090909090 },
   ];
 
-  //task
+  //task  show in the tabe
 
   // const myArray = [
   //   {
