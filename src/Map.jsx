@@ -8,6 +8,23 @@ const Map = () => {
     { name: "ragini", email: "ragini@gamil.com", phone: 9090909090 },
   ];
 
+  //task
+
+  // const myArray = [
+  //   {
+  //     name: "ragini",
+  //     email: "ragini@gmail.com",
+  //     phone: 8989898989,
+  //     address: [
+  //       {
+  //         state: "bihar",
+  //         district: "smastipue"
+  //       }
+  //     ]
+  //   }
+  // ];
+  
+  
   return (
     <div>
       {array.map((item, i) => {
