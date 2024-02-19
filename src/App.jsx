@@ -1,6 +1,6 @@
 import "./App.css";
 import Example from "./Example";
-import Map from "./Map";
+import List from "./List";
 import Parent from "./Parent";
 import ParentComponent from "./ParentComponent";
 // import Vikrant from "./ragini";
@@ -13,7 +13,8 @@ function App() {
       {/* <Example/> */}
       {/* <Parent/> */}
       {/* <Vikrant /> */}
-      <Map/>
+      <List/>
+
     </>
   );
 }
