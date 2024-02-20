@@ -2,21 +2,22 @@
 
 // task
 //code step by step;
+
 // spread oprator,rest oprator, shaloow Copy, deep copy  
 
-// const myArray = [
-  //   {
-  //     name: "ragini",
-  //     email: "ragini@gmail.com",
-  //     phone: 8989898989,
-  //     address: [
-  //       {
-  //         state: "bihar",
-  //         district: "smastipue"
-  //       }
-  //     ]
-  //   }
-  // ];
+const myArray = [
+    {
+      name: "ragini",
+      email: "ragini@gmail.com",
+      phone: 8989898989,
+      address: [
+        {
+          state: "bihar",
+          district: "smastipue"
+        }
+      ]
+    }
+  ];
 
 import React, { useState } from "react";
 
