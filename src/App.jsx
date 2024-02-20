@@ -1,5 +1,6 @@
 import "./App.css";
 import Example from "./Example";
+import Exampleuseeffect from "./Exampleuseeffect";
 import List from "./List";
 import Parent from "./Parent";
 import ParentComponent from "./ParentComponent";
@@ -9,11 +10,12 @@ function App() {
   const color = "red";
   return (
     <>
-      <ParentComponent color={color} />
+      {/* <ParentComponent color={color} />
       <Example/>
       <Parent/>
       <Vikrant />
-      <List/>
+      <List/> */}
+      <Exampleuseeffect/>
 
     </>
   );
