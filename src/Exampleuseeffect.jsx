@@ -2,7 +2,6 @@
 //promise (.the .catch)
 //react router dom
 import React, { useEffect, useState } from "react"
-// fkbd
 const Exampleuseeffect = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
