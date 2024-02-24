@@ -1,4 +1,7 @@
-import React, { useEffect, useState } from "react";
+//useEffect
+//promise (.the .catch)
+//react router dom
+import React, { useEffect, useState } from "react"
 
 const Exampleuseeffect = () => {
   const [data, setData] = useState([]);
@@ -6,6 +9,7 @@ const Exampleuseeffect = () => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((result) => {
+        // console.log(result);   // important
         setData(result);
       })
       .catch((error) => {
@@ -16,7 +20,7 @@ const Exampleuseeffect = () => {
   return (
     <div>
       {data.map((item) => {
-        console.log(item);
+        console.log(item);  // important
        return(
         <div key={item.id}>
          <h1>{item.title}</h1>
