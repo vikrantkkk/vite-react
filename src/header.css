@@ -1,0 +1,10 @@
+ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:gray;
+    height:10vh;
+    list-style: none;
+    color:lightblue
+}
+

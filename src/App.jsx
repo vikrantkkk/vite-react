@@ -1,20 +1,23 @@
 import "./App.css";
-import Example from "./Example";
-import List from "./List";
-import Parent from "./Parent";
-import ParentComponent from "./ParentComponent";
-import Vikrant from "./ragini";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./Header";
+import Home from './Home'
+import About from './About'
+import Services from './Service'
+import Contact from './Contact'
 
 function App() {
-  const color = "red";
   return (
     <>
-      <ParentComponent color={color} />
-      <Example/>
-      <Parent/>
-      <Vikrant />
-      <List/>
-
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/services" element={<Services/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
+      </Router>
     </>
   );
 }
