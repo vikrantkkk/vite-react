@@ -24,8 +24,10 @@ const Header = () => {
         <li>
           <Link to="/about">about</Link>
         </li>
+        <li>
+          <Link to="/todo">todo</Link>
+        </li>
       </ul>
-      <button onClick={handleclick}>clickme</button>
     </nav>
   );
 };

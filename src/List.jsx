@@ -24,6 +24,9 @@ import React, { useState } from "react";
 
 const List = () => {
   const [data,setData] = useState(["ragini", "neha", "prashant", "muskan"]);
+  
+
+  
 
   const handleClick = () => {
     const data1 = [...data];
