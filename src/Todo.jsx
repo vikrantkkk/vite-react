@@ -13,7 +13,7 @@ const Todo = () => {
     setItem([...item, data]);
     setData("");
   };
-
+//task delete item from listing
   return (
     <>
       <div
@@ -33,6 +33,7 @@ const Todo = () => {
           return (
             <div key={index}>
               <h1>{alldata}</h1>
+              <button>delete</button>
             </div>
           );
         })}
