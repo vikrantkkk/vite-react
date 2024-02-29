@@ -11,6 +11,7 @@ const Todo = () => {
   };
   const handleClick = () => {
     setItem([...item, data]);
+    setData("");
   };
 
   return (
@@ -25,7 +26,10 @@ const Todo = () => {
       >
         <input value={data} onChange={handleChange} type="text" />
         <button onClick={handleClick}>add</button>
+
+        {/* {    console.log("🚀 ~ {item.map ~ item:", item)} */}
         {item.map((alldata, index) => {
+          // console.log("🚀 ~ {item.map ~ alldata:", alldata)
           return (
             <div key={index}>
               <h1>{alldata}</h1>
