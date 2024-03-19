@@ -5,6 +5,7 @@ import Parent from "./Parent";
 import ParentComponent from "./ParentComponent";
 import Home from "./components/home/Home";
 import Vikrant from "./ragini";
+import ListindData from "./components/ListindData";
 
 function App() {
   const color = "red";
@@ -15,7 +16,8 @@ function App() {
       <Parent/>
       <Vikrant />
       <List/> */}
-      <Home />
+      {/* <Home /> */}
+      <ListindData/>
     </>
   );
 }
